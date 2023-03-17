@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Golos Text", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container-cart {
+  padding-top: 25px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.mainmain {
+  background-color: bisque;
+  height: 150vh;
+  position: relative;
+}
+.cart {
+  border: 1px solid #c1c1c1;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 300px;
+  margin: 10px;
+}
+.pics {
+  width: 70px;
+  height: auto;
+}
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  width: 100%;
+  background-color: bisque;
+}
+.left {
+  font-size: 35px;
+  padding-left: 50px;
+}
+.right {
+  padding-right: 50px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.productname {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.basketCart {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 15px;
+  height: 174px;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #c1c1c1;
+}
+.counter {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 11%;
+}
+.nameOfAddedProduct {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.price {
+  font-size: 13px;
+}
+.zero {
+  border: 1px solid #c1c1c1;
+  padding: 3px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.logreg {
+  display: flex;
+  width: 41%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navCenter {
+  width: 25%;
+}
+.leftleftleft {
+  margin-right: 15px;
+}
+.rightrightright {
+  text-decoration: none !important;
+}
+.loginForm {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.loginForm {
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff5e62,
+    #ff9966
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff5e62,
+    #ff9966
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+.input {
+  padding: 6px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+.icons {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SignIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.MainLogin {
+  display: flex;
+  align-items: center;
+  height: 89vh;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.register {
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.closeIcon {
+  position: absolute;
+  right: 213px;
+  top: 15px;
+}
